@@ -1,10 +1,19 @@
 // ©2023 JDSherbert. All rights reserved.
 
+#pragma once
+
 #include <Runtime/Core/Public/CoreMinimal.h>
 
 #include "ClassTemplate.generated.h"
 
-USTRUCT(Blueprintable, Category = "SomeCategory|SomeSubCategory")
+/**
+ * Class Template class
+ * \n
+ * Description goes here!
+ * @since Unreal Engine 5.2
+ * @author JDSherbert
+ */
+UClass(Blueprintable, Category = "SomeCategory|SomeSubCategory")
 struct UClassTemplate
 {
     GENERATED_BODY();
@@ -18,7 +27,7 @@ public:
         // Assign constructor values here
     }
 
-    ~FStructTemplate()
+    ~FClassTemplate()
     {
         // Assign destructor values here
     }
