@@ -7,11 +7,11 @@
 USTRUCT(Blueprintable, Category = "SomeCategory|SomeSubCategory")
 struct UClassTemplate
 {
-	  GENERATED_BODY();
+    GENERATED_BODY();
 
 public:
 
-	  UClassTemplate()
+    UClassTemplate()
     : SomeInt(0)
     , SomeFloat(0.0f)
     {
@@ -23,11 +23,11 @@ public:
         // Assign destructor values here
     }
 
-	  UPROPERTY(BlueprintReadWrite, Category = "SomeCategory|SomeSubCategory")
-	  int SomeInt;
+    UPROPERTY(BlueprintReadWrite, Category = "SomeCategory|SomeSubCategory")
+    int SomeInt;
 
     UPROPERTY(BlueprintReadWrite, Category = "SomeCategory|SomeSubCategory")
-	  float SomeFloat;
+    float SomeFloat;
 
     UFUNCTION(BlueprintCallable)
     FORCEINLINE void SomeFunction() const { return; }
