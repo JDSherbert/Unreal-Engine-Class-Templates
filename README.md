@@ -26,6 +26,8 @@
 -----------------------------------------------------------------------
 ## Overview
 These are some template classes for writing Unreal C++, handy as a reference point or as a quick start for using syntax.
+For meta specifiers, check out BenUI:
+https://benui.ca/unreal/uclass
 
 
 -----------------------------------------------------------------------
