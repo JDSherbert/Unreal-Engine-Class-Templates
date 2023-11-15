@@ -8,8 +8,6 @@
 
 #include "BlueprintFunctionLibraryTemplate.generated.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(LogSherbert_Tools, Log, All);
-
 /**
  * Blueprint Function Library Template class
  * \n
