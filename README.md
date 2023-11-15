@@ -1,6 +1,6 @@
-![image]()
+![image](https://user-images.githubusercontent.com/43964243/235778441-9dfb45ab-befd-480b-bc30-5eab5dc2efef.png)
 
-# Repository Template
+# Unreal Engine Class Templates
 
 <!-- Header Start -->
 <a href = "https://docs.unrealengine.com/5.3/en-US/"> <img height="40" img width="40" src="https://cdn.simpleicons.org/unrealengine/white"> </a> 
@@ -25,7 +25,7 @@
 
 -----------------------------------------------------------------------
 ## Overview
-Some words about the project here-
+These are some template classes for writing Unreal C++, handy as a reference point or as a quick start for using syntax.
 
 
 -----------------------------------------------------------------------
