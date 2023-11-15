@@ -1,9 +1,18 @@
 // ©2023 JDSherbert. All rights reserved.
 
+#pragma once
+
 #include <Runtime/Core/Public/CoreMinimal.h>
 
 #include "EnumTemplate.generated.h"
 
+/**
+ * Enum Template class
+ * \n
+ * Description goes here!
+ * @since Unreal Engine 5.2
+ * @author JDSherbert
+ */
 UENUM(BlueprintType)
 enum class EEnumTemplate : uint8 
 {
