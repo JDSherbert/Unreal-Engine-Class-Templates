@@ -27,7 +27,7 @@ public:
         // Assign constructor values here
     }
 
-    ~FClassTemplate()
+    ~UClassTemplate()
     {
         // Assign destructor values here
     }
