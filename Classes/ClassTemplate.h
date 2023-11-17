@@ -13,8 +13,8 @@
  * @since Unreal Engine 5.2
  * @author JDSherbert
  */
-UClass(Blueprintable, Category = "SomeCategory|SomeSubCategory")
-struct UClassTemplate
+UCLASS(Blueprintable, Category = "SomeCategory|SomeSubCategory")
+class UClassTemplate
 {
     GENERATED_BODY();
 
