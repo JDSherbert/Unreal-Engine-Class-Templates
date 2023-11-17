@@ -14,7 +14,7 @@
  * @author JDSherbert
  */
 UCLASS(Blueprintable, Category = "SomeCategory|SomeSubCategory")
-class UClassTemplate
+class TEMPLATE_API UClassTemplate
 {
     GENERATED_BODY();
 
