@@ -14,7 +14,7 @@
  * @author JDSherbert
  */
 USTRUCT(Blueprintable, Category = "SomeCategory|SomeSubCategory")
-struct FStructTemplate
+struct TEMPLATE_API FStructTemplate
 {
     GENERATED_BODY();
 
